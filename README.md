@@ -564,8 +564,9 @@ Low / Medium / High Risk
 
 The application provides SHAP-based explanations showing which features influence the prediction.
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 HAI-Prediction-System/
 │
 ├── dataset/
