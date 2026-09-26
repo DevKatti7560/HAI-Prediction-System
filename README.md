@@ -47,18 +47,21 @@ HAI Recall:      77.49%
 Precision:       46.56%
 F1 Score:        58.17%
 False Negatives: 61
+```
 
-## ⏱️ Temporal Analysis
+---
+
+### ⏱️ Temporal Analysis
 
 The system compares important clinical measurements between **Day 1 and Day 3**.
 
 ### Monitored Changes
 
-* 🌡️ Temperature Change
-* ❤️ Heart Rate Change
-* 🩸 WBC Count Change
+- 🌡️ **Temperature Change**
+- ❤️ **Heart Rate Change**
+- 🩸 **WBC Count Change**
 
-This allows the model to consider **changes in the patient's condition over time**, rather than relying only on individual clinical measurements.
+This allows the model to consider **changes in the patient's condition over time**, rather than relying only on individual measurements.
 
 ---
 
@@ -68,16 +71,16 @@ This allows the model to consider **changes in the patient's condition over time
 
 ### 🔝 Important Features
 
-1. Length of Stay
-2. ICU Admission
-3. Surgery
-4. Previous Infection
-5. Age
-6. Temperature Change
-7. Catheter Use
-8. Ventilator Use
-9. Immunocompromised Status
-10. Antibiotic Exposure
+1. **Length of Stay**
+2. **ICU Admission**
+3. **Surgery**
+4. **Previous Infection**
+5. **Age**
+6. **Temperature Change**
+7. **Catheter Use**
+8. **Ventilator Use**
+9. **Immunocompromised Status**
+10. **Antibiotic Exposure**
 
 SHAP provides both **global feature importance** and insights into how individual features contribute to predictions.
 
@@ -87,15 +90,15 @@ SHAP provides both **global feature importance** and insights into how individua
 
 ### 👤 Patient Information & Medical History
 
-![Patient Information](screenshots/patient-information.png)
+<img src="./screenshots/patient-information.png" alt="Patient Information" width="800">
 
 ### 🩺 Clinical Measurements
 
-![Clinical Measurements](screenshots/clinical-measurements.png)
+<img src="./screenshots/clinical-measurements.png" alt="Clinical Measurements" width="800">
 
 ### 📊 Prediction Result
 
-![Prediction Result](screenshots/prediction-result.png)
+<img src="./screenshots/prediction-result.png" alt="Prediction Result" width="800">
 
 ---
 
@@ -137,6 +140,7 @@ HAI-Prediction-System/
 ├── README.md
 └── requirements.txt
 ```
+
 
 ---
 
